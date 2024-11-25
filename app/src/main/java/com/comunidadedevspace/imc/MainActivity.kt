@@ -1,5 +1,6 @@
 package com.comunidadedevspace.imc
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -38,21 +39,9 @@ class MainActivity : AppCompatActivity() {
                 val height2 = height * (height)
                 val IMC = weight / height2
 
-                if (IMC < 18.5) {
-                    println("Underweight")
-                }
-                if (IMC >= 18.5 && IMC <= 24.9) {
-                    println("Normal")
-                }
-                if (IMC >= 25.0 && IMC <= 29.9) {
-                    println("Overweight")
-                }
-                if (IMC >= 30.0 && IMC <= 39.9) {
-                    println("Obesity")
-                }
-                if (IMC >= 40.0) {
-                    println("Severe obesity")
-                }
+                val result_IMC = Intent(this, ResultActivity::class.java)
+                result_IMC.putExtra("IMC", IMC)
+                startActivity(result_IMC)
             }
         }
     }
