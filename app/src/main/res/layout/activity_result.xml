@@ -13,8 +13,8 @@
     <LinearLayout
         android:id="@+id/VgHeader"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/gradient_bg"
+        android:layout_height="300dp"
+        android:background="@drawable/header_bg"
         android:orientation="vertical">
 
         <ImageView

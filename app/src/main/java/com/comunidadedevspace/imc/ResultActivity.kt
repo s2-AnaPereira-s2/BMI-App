@@ -17,16 +17,16 @@ class ResultActivity : AppCompatActivity() {
         val result_textview = findViewById<TextView>(R.id.result)
         val classification_textview = findViewById<TextView>(R.id.classification)
         result_textview.text = IMC.toString()
-        val classification: String = if (IMC < 18.5) {
+        val classification: String = if (IMC < 18.50) {
             "Underweight"
         }
-         else if (IMC >= 18.5 && IMC <= 24.9) {
+        else if (IMC >= 18.50 && IMC <= 25.00) {
             "Normal"
         }
-         else if (IMC >= 25.0 && IMC <= 29.9) {
+        else if (IMC >= 25.00 && IMC <= 30.00) {
             "Overweight"
         }
-        else if (IMC >= 30.0 && IMC <= 39.9) {
+        else if (IMC >= 30.00 && IMC <= 40.00) {
             "Obesity"
         }
         else {
