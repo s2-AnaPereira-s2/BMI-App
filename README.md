@@ -5,9 +5,7 @@ App was coded in Kotlin using Android Studio.
 
 
 ## :camera_flash: Screenshots
-<img src="https://github.com/user-attachments/assets/6e94dec3-c596-4422-884a-1ae38748de9d" width=250/> <img src="https://github.com/user-attachments/assets/4bbe32d3-9efc-4f07-a200-7fc93cd66231" width=250/>
-
-
+<img src="https://github.com/user-attachments/assets/34cac529-0536-4d57-bdee-ebe4ddb4a75a" width=250/> <img src="https://github.com/user-attachments/assets/79c97f82-511c-4894-b3e6-773671831ac1" width=250/>
 
 ## Technologies:
 - Activity
